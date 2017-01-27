@@ -1,1 +1,120 @@
 //buttons, and other repeatable elements
+/* CSS Mini Reset */
+
+html, body, div, form, fieldset, legend, label
+{
+  margin: 0;
+  padding: 0;
+}
+
+table
+{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th, td
+{
+  text-align: left;
+  vertical-align: top;
+}
+
+img { border: 0; }
+
+
+/* typography */
+h1, h2, h3, h4, h5, h6, th, td, caption {
+  font-weight:normal;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+p { color: $drkgrey;}
+
+a {
+  color: $ltgrey;
+}
+a:hover {
+  color: $ltgrey;
+  border-bottom: 2px solid $ltgrey;
+  padding-bottom: 2px;
+}
+
+/* homepage styles */
+.container-fluid {
+  padding: 0px 0px;
+
+  .row {
+    margin: 0 0;
+    padding: 0 0;
+  }
+
+  .jumbotron {
+    padding: 0px 0px;
+    max-height: 50em;
+    overflow: hidden;
+    margin-bottom: 0;
+    border-radius: 0;
+  }
+
+  h3 a {
+    color: $white;
+
+    :hover {
+      color: $grey;
+    }
+  }
+
+  .carousel-control > i{
+    position: absolute;
+    /*set position of image from top to be 50%...*/
+    top: 50%;
+    /*and then shift it down to make it perfectly center.*/
+    transform: translate(-50%, -50%);
+
+    z-index: 5;
+    display: inline-block;
+  }
+
+  .carousel-caption {
+    left: 0%;
+    right: 50%;
+    bottom: 70%;
+    //padding-bottom: 30px;
+  }
+}
+
+.bggrey {
+  background-color: $grey;
+}
+
+.bglt {
+  background-color: $ltgrey;
+}
+
+.border {
+  height: 2em;
+}
+
+.type {
+  position: relative;
+  top: 10em;
+  left: 8em;
+
+  p {  font-style: italic;  }
+
+  .txtlt {
+    color: $ltgrey;
+  }
+
+  .txtdrk {
+    color: $drkgrey;
+
+    a {color: $drkgrey;}
+    a:hover {
+      color: $drkgrey;
+      border-bottom: 2px solid $drkgrey;
+      padding-bottom: 2px;
+    }
+  }
+}

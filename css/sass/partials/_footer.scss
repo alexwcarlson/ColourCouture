@@ -1,0 +1,88 @@
+/* footer styles */
+
+footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: $ltgrey;
+	font-family: "filson-soft";
+	font-weight: 400;
+	font-style: italic;
+	font-size: 1.3em;
+}
+
+footer a {
+	color: $black;
+}
+
+footer a:hover {
+	color: $grey;
+}
+
+footer .logo img {
+	max-width: 90%;
+}
+
+footer .footer-nav {
+	list-style-type: none;
+}
+
+footer .footer-nav li, footer .footer-right li {
+	padding: 5%;
+}
+
+footer small {
+	padding-top: 45px;
+	display: block;
+}
+
+footer small p {
+	font-size: 75%;
+	padding-left: 45px;
+}
+
+footer .footer-right {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.footer-search button {
+	background-color: $purple;
+	color: $ltgrey;
+}
+
+.footer-search button:hover {
+	color: white;
+}
+
+footer .form-control:focus {
+    border-color: $purple;
+    box-shadow: 0 1px 1px $purple inset, 0 0 8px $purple;
+}
+
+footer .footer-search {
+	width: 100%;
+}
+
+footer .footer-search #searchInputField {
+	height: 41px;
+}
+
+.input-group-addon {
+    border: none;
+    border-radius: 0px;
+    padding: 0px;
+}
+
+footer .input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn, footer .btn {
+    border-radius: 0;
+    border: none;
+}
+
+footer .social-nav {
+	display: inline;
+	list-style-type: none;
+}
+
+footer .social-nav li {
+	display: inline;
+}
