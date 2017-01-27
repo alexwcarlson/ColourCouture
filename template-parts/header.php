@@ -7,6 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Colour Couture</title>
     <link rel="stylesheet" href="css/style.css">
+    
+    <!-- typekit for localhost -->
+    <script src="https://use.typekit.net/wcz3auu.js"></script>
+	<script>try{Typekit.load({ async: true });}catch(e){}</script>
+	
 </head>
 <body>
 <header>
