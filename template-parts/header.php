@@ -15,7 +15,25 @@
 </head>
 <body>
 <header>
-
-
+    <a href="/" class="header-logo">
+        <img src="img/colour-logo-light.png" alt="ColourCouture-logo">
+    </a>
+    <nav class="social-nav">
+        <ul>
+            <li><a href="#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li>
+        </ul>
+    </nav>
+<nav class="main-nav">
+    <ul>
+        <li><a href="#">Shop</a></li>
+        <li><a href="#">Try It on</a></li>
+        <li><a href="#">Maniblog</a></li>
+        <li><a href="#">Find In Store</a></li>
+        <li><a href="#">Sign In/Checkout</a></li>
+    </ul>
+</nav>
 </header>
 
