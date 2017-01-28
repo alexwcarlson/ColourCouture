@@ -32,7 +32,7 @@
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img src="imggit a/spring_flower.jpg" alt="blog">
+                                    <img src="img/spring_flower.jpg" alt="blog">
                                     <div class="carousel-caption text-uppercase">
                                         <h3><a href="#">The Newest Spring Styles</a></h3>
                                     </div>
