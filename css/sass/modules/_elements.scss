@@ -1,39 +1,40 @@
 //buttons, and other repeatable elements
 /* CSS Mini Reset */
 
-html, body, div, form, fieldset, legend, label
-{
+html, body, div, form, fieldset, legend, label {
   margin: 0;
   padding: 0;
 }
 
-table
-{
+table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-th, td
-{
+th, td {
   text-align: left;
   vertical-align: top;
 }
 
-img { border: 0; }
-
+img {
+  border: 0;
+}
 
 /* typography */
 h1, h2, h3, h4, h5, h6, th, td, caption {
-  font-weight:normal;
+  font-weight: normal;
   text-transform: uppercase;
   font-style: italic;
 }
 
-p { color: $drkgrey;}
+p {
+  color: $drkgrey;
+}
 
 a {
   color: $ltgrey;
 }
+
 a:hover {
   color: $ltgrey;
   border-bottom: 2px solid $ltgrey;
@@ -65,7 +66,7 @@ a:hover {
     }
   }
 
-  .carousel-control > i{
+  .carousel-control > i {
     position: absolute;
     /*set position of image from top to be 50%...*/
     top: 50%;
@@ -82,9 +83,9 @@ a:hover {
     bottom: 70%;
     //padding-bottom: 30px;
   }
-  .carousel-inner{
-    .item{
-      min-height:25em;
+  .carousel-inner {
+    .item {
+      min-height: 25em;
     }
   }
 }
@@ -101,12 +102,21 @@ a:hover {
   height: 2em;
 }
 
+.section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
 .type {
   //position: relative;
   top: 10em;
   left: 8em;
 
-  p {  font-style: italic;  }
+  p {
+    font-style: italic;
+  }
 
   .txtlt {
     color: $ltgrey;
@@ -115,11 +125,24 @@ a:hover {
   .txtdrk {
     color: $drkgrey;
 
-    a {color: $drkgrey;}
-    a:hover {
+    a {
       color: $drkgrey;
-      border-bottom: 2px solid $drkgrey;
-      padding-bottom: 2px;
+      &:after{
+        content: '';
+      position:absolute;
+        bottom:0;
+        left:0;
+        width:0;
+        border-top:2px solid $drkgrey;
+      }
+      &:hover {
+        color: $drkgrey;
+        border-bottom: 2px solid transparent;
+        padding-bottom: 2px;
+        &:after{
+          width:100%;
+        }
+      }
     }
   }
 }

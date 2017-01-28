@@ -53,8 +53,8 @@
                 </div> <!-- /Jumbotron -->
             </div> <!-- /end row 1 -->
 
-            <div class="row col-md-12 bggrey border"></div>
-            <div class="row col-md-12 bggrey">
+            <div class=" row col-md-12 bggrey border"></div>
+            <div class="section row col-md-12 bggrey">
                 <div class="col-md-4">
                     <div class="type">
                         <h2>
@@ -71,7 +71,7 @@
             </div> <!-- /end row 2 -->
             <div class="row col-md-12 bggrey border">
             </div>
-            <div class="row col-md-12 bglt">
+            <div class="section row col-md-12 bglt">
                 <div class="col-md-8">
                     <img class="img-responsive" src="img/evergreen.jpg" alt="shop">
                 </div>
@@ -89,7 +89,7 @@
                 </div>
             </div> <!-- /end row 3 -->
             <div class="row col-md-12 bglt border"></div>
-            <div class="row col-md-12 bggrey">
+            <div class="section row col-md-12 bggrey">
                 <div class="col-md-4">
                     <div class="type">
                         <h2>
