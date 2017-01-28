@@ -82,6 +82,11 @@ a:hover {
     bottom: 70%;
     //padding-bottom: 30px;
   }
+  .carousel-inner{
+    .item{
+      min-height:25em;
+    }
+  }
 }
 
 .bggrey {
@@ -97,7 +102,7 @@ a:hover {
 }
 
 .type {
-  position: relative;
+  //position: relative;
   top: 10em;
   left: 8em;
 
