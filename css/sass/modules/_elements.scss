@@ -20,7 +20,8 @@ img {
   border: 0;
 }
 
-/* typography */
+/* TYPOGRAPHY 
+========================================== */
 h1, h2, h3, h4, h5, h6, th, td, caption {
   font-weight: normal;
   text-transform: uppercase;
@@ -40,8 +41,36 @@ a:hover {
   border-bottom: 2px solid $ltgrey;
   padding-bottom: 2px;
 }
+.txtlt {
+  color: $ltgrey;
+}
 
-/* homepage styles */
+.txtdrk {
+  color: $drkgrey;
+
+  a {
+    color: $drkgrey;
+    &:after{
+      content: '';
+      position:absolute;
+      bottom:0;
+      left:0;
+      width:0;
+      border-top:2px solid $drkgrey;
+    }
+    &:hover {
+      color: $drkgrey;
+      border-bottom: 2px solid transparent;
+      padding-bottom: 2px;
+      &:after{
+        width:100%;
+      }
+    }
+  }
+}
+
+/* HOME PAGE 
+========================================== */
 .container-fluid {
   padding: 0px 0px;
 
@@ -117,32 +146,16 @@ a:hover {
   p {
     font-style: italic;
   }
+}
 
-  .txtlt {
-    color: $ltgrey;
-  }
+/* INTERIOR PAGE  
+========================================== */
 
-  .txtdrk {
-    color: $drkgrey;
-
-    a {
-      color: $drkgrey;
-      &:after{
-        content: '';
-      position:absolute;
-        bottom:0;
-        left:0;
-        width:0;
-        border-top:2px solid $drkgrey;
-      }
-      &:hover {
-        color: $drkgrey;
-        border-bottom: 2px solid transparent;
-        padding-bottom: 2px;
-        &:after{
-          width:100%;
-        }
-      }
-    }
-  }
+.jumbotron .interior {
+  position: relative;
+}
+h1.interiortitle {
+  position: absolute;
+  top: 2em;
+  left: 5em;
 }
