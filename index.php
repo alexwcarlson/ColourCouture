@@ -20,19 +20,19 @@
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
-                                    <img src="images/delicate.jpg" alt="Try It On Tool">
+                                    <img src="im/delicate.jpg" alt="Try It On Tool">
                                     <div class="carousel-caption text-uppercase">
                                         <h3><a href="#">Try It On Tool</a></h3>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img src="images/fashion.jpg" alt="shop">
+                                    <img src="img/fashion.jpg" alt="shop">
                                     <div class="carousel-caption text-uppercase">
                                         <h3><a href="#">Shop Our New Collection</a></h3>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <img src="images/spring_flower.jpg" alt="blog">
+                                    <img src="imggit a/spring_flower.jpg" alt="blog">
                                     <div class="carousel-caption text-uppercase">
                                         <h3><a href="#">The Newest Spring Styles</a></h3>
                                     </div>
