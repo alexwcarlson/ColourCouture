@@ -20,7 +20,7 @@
                             <!-- Wrapper for slides -->
                             <div class="carousel-inner" role="listbox">
                                 <div class="item active">
-                                    <img src="im/delicate.jpg" alt="Try It On Tool">
+                                    <img src="img/delicate.jpg" alt="Try It On Tool">
                                     <div class="carousel-caption text-uppercase">
                                         <h3><a href="#">Try It On Tool</a></h3>
                                     </div>
