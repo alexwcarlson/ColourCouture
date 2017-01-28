@@ -1,3 +1,31 @@
+/* footer carousel styles */
+
+.carousel-inner.onebyone-carosel { margin: auto; width: 90%; }
+.onebyone-carosel .active.left { left: -25.00%; }
+.onebyone-carosel .active.right { left: 25.00%; }
+.onebyone-carosel .next { left: 25.00%; }
+.onebyone-carosel .prev { left: -25.00%; }
+
+.footer-carousel h2 {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.footer-carousel #eventCarousel {
+	padding-bottom: 2%;
+
+}
+
+.footer-carousel #eventCarousel .c-left-button {
+	position: relative;
+	left: 2%;
+}
+
+.footer-carousel #eventCarousel .c-right-button {
+	position: relative;
+	left: 98%;
+}
+
 /* footer styles */
 
 footer {

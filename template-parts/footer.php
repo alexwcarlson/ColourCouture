@@ -1,3 +1,78 @@
+<div class="footer-carousel container-fluid bggrey">
+        	<h2 class="text-uppercase text-center"><a href="#">Nail Art Gallery</a></h2>
+
+                    <div id="myCarousel" class="carousel fdi-Carousel slide">
+                     <!-- Carousel items -->
+                        <div class="carousel fdi-Carousel slide" id="eventCarousel" data-interval="0">
+                            <div class="carousel-inner onebyone-carosel">
+                                <div class="item active">
+                                    <div class="col-xs-6 col-sm-3">
+                                        <a href="#"><img src="img/nailgallery1.jpg" class="img-responsive center-block" alt="nail art gallery image"></a>
+                                        <div class="text-center">1</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-6 col-sm-3">
+                                        <a href="#"><img src="img/nailgallery2.jpg" class="img-responsive center-block" alt="nail art gallery image"></a>
+                                        <div class="text-center">2</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-6 col-sm-3">
+                                        <a href="#"><img src="img/nailgallery3.jpg" class="img-responsive center-block" alt="nail art gallery image"></a>
+                                        <div class="text-center">3</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-6 col-sm-3">
+                                        <a href="#"><img src="img/nailgallery4.jpg" class="img-responsive center-block" alt="nail art gallery image"></a>
+                                        <div class="text-center">4</div>
+                                    </div>
+                                </div>
+    							<div class="item">
+                                    <div class="col-xs-6 col-sm-3">
+                                        <a href="#"><img src="img/nailgallery5.jpg" class="img-responsive center-block" alt="nail art gallery image"></a>
+                                        <div class="text-center">5</div>
+                                    </div>
+                                </div>
+								<div class="item">
+                                    <div class="col-xs-6 col-sm-3">
+                                        <a href="#"><img src="img/nailgallery6.jpg" class="img-responsive center-block" alt="nail art gallery image"></a>
+                                        <div class="text-center">6</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-6 col-sm-3">
+                                        <a href="#"><img src="img/nailgallery7.jpg" class="img-responsive center-block" alt="nail art gallery image"></a>
+                                        <div class="text-center">7</div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="col-xs-6 col-sm-3">
+                                        <a href="#"><img src="img/nailgallery8.jpg" class="img-responsive center-block" alt="nail art gallery image"></a>
+                                        <div class="text-center">7</div>
+                                    </div>
+                                </div>
+                            </div> <!--/carousel-inner-->
+
+                            <!--controls-->
+                            <a class="left carousel-control" href="#eventCarousel" data-slide="prev"></a>
+                            <a class="right carousel-control" href="#eventCarousel" data-slide="next"></a>
+                            <a class="c-left-button left carousel-control" href="#eventCarousel" role="button" data-slide="prev">
+                                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="c-right-button right carousel-control" href="#eventCarousel" role="button" data-slide="next">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>    
+                    </div><!--/myCarousel-->
+
+</div> <!--/container-fluid footer-carousel-->
+
+
+
 
 <footer>
 	<div class="container">
